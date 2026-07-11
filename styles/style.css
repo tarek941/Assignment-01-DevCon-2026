@@ -13,6 +13,10 @@
     background-color: #1D4ED8;
     cursor: pointer;
 }
+.btn:hover{
+    border: 1px solid #1D4ED8;
+    background-color: #114df1;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -205,6 +209,174 @@ nav{
 .pricing-card .trd-btn{
     color: #0D1B2A;
     border-color: #0D1B2A;
+}
+#hackathon{
+    max-width: 1500px;
+    margin: 60px auto;
+    border: 1px solid #575757;
+    /* border-radius: 5%; */
+    padding: 32px;
+    background-color: #F5F9FF;
+}
+.hackathon-heading{
+    text-align: center;
+}
+.hackathon-heading small{
+    color: #2563EB;
+    font-size: 0.8rem;
+    font-width: 600;
+    line-height: 24px;
+    font-style: oblique;
+}
+.hackathon-heading h2{
+    color: #0D1B2A;
+    font-size: 3.5rem;
+    font-weight: 900;
+    /* font-style: oblique; */
+    margin-bottom: 24px;
+}
+.hackathon-heading p{
+    color: #333333;
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+}
+.hackathon-sec-row{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-top: 50px;
+}
+.hack-card-container{
+    flex: 1.1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.hack-card{
+    background: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    box-shadow: 10px 10px 7px rgb(170, 171, 199);
+    padding: 30px;
+    text-align: center;
+}
+.hack-card img{
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    margin-bottom: 18px;
+}
+.hack-card h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #2563EB;
+    margin-bottom: 8px;
+}
+.hack-card p{
+    font-size: 1rem;
+    color: #475569;
+}
+.hack-hero-image{
+    flex: .9;
+    display: flex;
+    justify-content: center;
+}
+.hack-hero-image img{
+    width: 100%;
+    max-width: 500px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.hackathon-third-row{
+    display: flex;
+    gap: 32px;
+    margin-top: 48px;
+    align-items: center;
+}
+.technologies,
+.hackathon-rules{
+    flex: 1;
+}
+.technologies,
+.hackathon-rules{
+    background: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-radius: 18px;
+    padding: 32px;
+    box-shadow: 0 10px 30px rgba(37,99,235,.08);
+}
+.technologies h2,
+.hackathon-rules h2{
+    color: #0D1B2A;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+.technologies p{
+    color: #64748B;
+    font-size: 1rem;
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+.tech-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 18px;
+}
+.tech-card{
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech-card:hover{
+    box-shadow: 12px 12px 15px rgba(23, 85, 218, 0.12);
+    border-color: #2563EB;
+    background-color: #dce7f3;
+}
+.tech-card p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #334155;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tech-card i{
+    font-size: 1.7rem;
+    color: #2563EB;
+}
+.hackathon-rules ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.hackathon-rules li{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 0;
+    color: #475569;
+    line-height: 28px;
+}
+ .hackathon-rules hr{
+    border: 1px solid rgb(235, 228, 228);
+ }
+.hackathon-rules i{
+    color: #22C55E;
+    margin-top: 5px;
+    font-size: .95rem;
+}
+.hack-join-btn{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+.hack-join-btn button{
+    font-size: 1.25rem;
 }
 footer{
     padding: 60px;
