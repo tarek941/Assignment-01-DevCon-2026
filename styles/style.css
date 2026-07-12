@@ -17,10 +17,12 @@
     border: 1px solid #1D4ED8;
     background-color: #114df1;
 }
-nav{
+nav, .top-row, .bottom-row{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+nav{
     padding: 23.5px 60px;
 }
 .logo img{
@@ -214,7 +216,6 @@ nav{
     max-width: 1500px;
     margin: 60px auto;
     border: 1px solid #575757;
-    /* border-radius: 5%; */
     padding: 32px;
     background-color: #F5F9FF;
 }
@@ -224,7 +225,7 @@ nav{
 .hackathon-heading small{
     color: #2563EB;
     font-size: 0.8rem;
-    font-width: 600;
+    font-weight: 600;
     line-height: 24px;
     font-style: oblique;
 }
@@ -232,7 +233,6 @@ nav{
     color: #0D1B2A;
     font-size: 3.5rem;
     font-weight: 900;
-    /* font-style: oblique; */
     margin-bottom: 24px;
 }
 .hackathon-heading p{
@@ -297,9 +297,6 @@ nav{
 .technologies,
 .hackathon-rules{
     flex: 1;
-}
-.technologies,
-.hackathon-rules{
     background: #ffffff;
     border: 1px solid #E5E7EB;
     border-radius: 18px;
@@ -356,7 +353,6 @@ nav{
 }
 .hackathon-rules li{
     display: flex;
-    align-items: flex-start;
     gap: 12px;
     padding: 14px 0;
     color: #475569;
@@ -383,9 +379,6 @@ footer{
     background-color: #0D1B2A;
 }
 .top-row, .bottom-row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 32px;
 }
 .social-links{
