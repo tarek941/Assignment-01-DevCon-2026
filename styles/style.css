@@ -14,8 +14,7 @@
     cursor: pointer;
 }
 .btn:hover{
-    border: 1px solid #1D4ED8;
-    background-color: #114df1;
+    background-color: #285ff8;
 }
 nav, .top-row, .bottom-row{
     display: flex;
